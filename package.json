@@ -1,6 +1,6 @@
 {
   "name": "pdfmeta",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple library that interprets PDF info built entirely with Javascript",
   "main": "index.js",
   "scripts": {
