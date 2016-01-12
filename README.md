@@ -23,6 +23,13 @@ pdfmeta.getInfo(filePath).then(function(data) {
 ### `getInfo(<path, buffer>)`
 
 * getInfo can accept either a file path or a buffer
+* returns an object with information
+
+```
+{
+    pages: 1
+}
+```
 
 ## Development
 
