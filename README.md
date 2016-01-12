@@ -20,7 +20,7 @@ pdfmeta.getInfo(filePath).then(function(data) {
 })
 ```
 
-### getInfo(<path, buffer>)
+### `getInfo(<path, buffer>)`
 
 * getInfo can accept either a file path or a buffer
 
