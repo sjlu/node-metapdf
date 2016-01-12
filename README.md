@@ -1,5 +1,7 @@
 # pdfmeta
 
+[![Circle CI](https://circleci.com/gh/sjlu/pdfmeta.svg?style=svg)](https://circleci.com/gh/sjlu/pdfmeta)
+
 Just returns meta information about a PDF using [pdfjs](https://mozilla.github.io/pdf.js/).
 
 ## Install
