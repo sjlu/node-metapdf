@@ -1,6 +1,7 @@
 # pdfmeta
 
 [![Circle CI](https://circleci.com/gh/sjlu/pdfmeta.svg?style=svg)](https://circleci.com/gh/sjlu/pdfmeta)
+[![npm version](https://badge.fury.io/js/pdfmeta.svg)](https://badge.fury.io/js/pdfmeta)
 
 Just returns meta information about a PDF using [pdfjs](https://mozilla.github.io/pdf.js/).
 
@@ -8,6 +9,15 @@ Just returns meta information about a PDF using [pdfjs](https://mozilla.github.i
 
 ```
 npm install pdfmeta --save
+```
+
+## Usage
+
+```
+var pdfmeta = require('pdfmeta')
+pdfmeta.getInfo(filePath).then(function(data) {
+    console.log(data)
+})
 ```
 
 ## Development
